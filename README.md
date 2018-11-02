@@ -33,6 +33,8 @@ For known offenders, this JavaScript swaps out the offending character with a gi
 
 For unknown offenders, offending characters are replaced with a generic substibute (which, by default is a blank character.) Unknown offending characters are assumed to be those with a unicode value greater than or equal to 20 and less than or equal to 127 (these are the characters than are in [Unicode's basic Latin character set](https://unicode-table.com/en/#basic-latin)). These values are controlled by constants and are easy to change the rnage of offending characters you need to accept. 
 
+[You can see the code below in action here.](https://asna.github.io/cleanse-html-input/index.html)
+
     "use strict";
     
     (function() {
